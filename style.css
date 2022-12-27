@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  height:66px;
+  position:sticky;
+  top:0;
+  background:white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.left img{ 
+  width:32px;
+  height: 23px;
+}
+
+.container{
+/*   max-width: 80vw; */
+  padding: -1px 5vw;
+  /*margin:auto;*/
+  /*margin: 13px 0;*/
+}
+
+.container1{
+/*   max-width: 80vw; */
+  padding: 0px 5vw;
+  /*margin:auto;*/
+  /*margin: 13px 0;*/
+}
+nav{
+ font-size:12px;
+ padding-top:14px;
+}
+
+nav ul li{
+  list-style:none;
+  padding:0 12px;
+}
+
+.section1{
+  background:#ededed;
+  /*height:122vh;*/
+}
+.search{
+    width: 29vw;
+    padding: 10px 10px 10px;
+    height: 20px;
+    border: 0.5px;
+    border-radius: 5px;
+    background: #ededed;
+}
+.HomeImg{
+  width:100vw;
+  margin: -1px 0px;
+}
+.ItemImg{
+    width: 14vw;
+    margin: -3px 1px;
+}
+
+footer{
+  padding:23px;
+  text-align:center;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+ 
+@media (max-width: 1140px) { 
+
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+}
+  .containerHeader {
+    padding: 0 2vw;
+}
+  
+header{ 
+  height:122px;
+}  
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{ 
+    
+  }
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+}
